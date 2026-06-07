@@ -9,3 +9,5 @@ MEMORY_FILE         = r"<PATH TO WORKSPACE MEMORY FILE>"
 OLLAMA_PATH         = r"<PATH TO OLLAMA EXECUTABLE>"
 TIMEOUT             = 120   
 STREAM_TIMEOUT      = 300   
+POPPLER_PATH        = r"<PATH TO POPPLER>\Library\bin"
+TESSERACT_PATH      = r"<PATH TO TESSERACT>\tesseract.exe"

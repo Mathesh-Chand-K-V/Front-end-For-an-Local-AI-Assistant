@@ -3,10 +3,9 @@ from pdf2image import convert_from_path
 import pytesseract
 import pdfplumber
 from PIL import Image
-from config import CACHE_DIR
+from config import CACHE_DIR,POPPLER_PATH, TESSERACT_PATH
 
-POPPLER_PATH = r"<PATH TO POPPLER>\Library\bin"
-pytesseract.pytesseract.tesseract_cmd = r"<PATH TO TESSERACT>\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
 
 def _is_scanned(path, threshold=30):
     try:
