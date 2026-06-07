@@ -307,8 +307,8 @@ TESSERACT_PATH      = "<PATH TO TESSERACT>\\tesseract.exe"
 ## 1. Clone Repository
 
 ```bash
-git clone <https://github.com/Mathesh-Chand-K-V/Front-end-For-an-Local-AI-Assistant>
-cd jarvis
+git clone [https://github.com/Mathesh-Chand-K-V/JARVIS---Local-AI-Assistant]
+cd "JARVIS---Local-AI-Assistant"
 ```
 
 ---
